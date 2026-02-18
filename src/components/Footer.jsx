@@ -59,6 +59,7 @@ function Footer() {
             >
               soumyaranjan.mahapatro@vit.ac.in
             </a>
+            <p>Dr. Soumya Ranjan Mahapatro</p>
           </div>
 
           <div className="flex justify-center items-center gap-3">
@@ -83,6 +84,7 @@ function Footer() {
             >
               nithya.v@vit.ac.in
             </a>
+            <p>Dr. Nithya Venkatesh</p>
           </div>
         </div>
 
