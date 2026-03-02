@@ -10,34 +10,7 @@ function Program() {
           <p className="text-sm text-gray-600">B D Subudhi (Chief Guest)</p>
         </div>
 
-        <div className="rounded-2xl bg-white/80 shadow-sm border border-sky-100 px-6 py-5 space-y-2">
-          <h3 className="font-semibold text-xl text-sky-800">
-            Day 1{" "}
-            <span className="text-sm font-normal text-gray-500">
-              (24 March 2026)
-            </span>
-          </h3>
-          <ul className="space-y-1.5">
-            <li className="text-sm text-gray-700">
-              <span className="font-semibold text-sky-700">
-                Prof. Santha Kumar
-              </span>
-              <span className="text-gray-500"> — 11:30 AM to 1:00 PM</span>
-            </li>
-            <li className="text-sm text-gray-700">
-              <span className="font-semibold text-sky-700">
-                Prof. S. Murugavelh
-              </span>
-              <span className="text-gray-500"> — 2:00 PM to 3:00 PM</span>
-            </li>
-            <li className="text-sm text-gray-700">
-              <span className="font-semibold text-sky-700">
-                Prof. G. Velvizhi
-              </span>
-              <span className="text-gray-500"> — 3:30 PM to 4:30 PM</span>
-            </li>
-          </ul>
-        </div>
+       
 
         <div className="rounded-2xl bg-white/80 shadow-sm border border-sky-100 px-6 py-5 space-y-2">
           <h3 className="font-semibold text-xl text-sky-800">
