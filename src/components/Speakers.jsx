@@ -13,6 +13,7 @@ import shamik from "../assets/images/shamik.png";
 import subu from "../assets/images/subu.png";
 import shanta from "../assets/images/shanta.png";
 import sivakumaran from "../assets/images/sivakumaran.png";
+import ntyagi from "../assets/images/ntyagi.png";
 
 function Speakers() {
   const speakers = [
@@ -91,7 +92,7 @@ function Speakers() {
       org: "Pro VC, VIT Chennai",
       role: "Speaker",
       link: "#",
-      image: radha,
+      image: ntyagi,
     },
     {
       name: "Prof. Tushara Chaminda G.G",
