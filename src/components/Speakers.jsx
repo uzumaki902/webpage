@@ -14,6 +14,7 @@ import subu from "../assets/images/subu.png";
 import shanta from "../assets/images/shanta.png";
 import sivakumaran from "../assets/images/sivakumaran.png";
 import ntyagi from "../assets/images/ntyagi.png";
+import hmm from "../assets/images/hmm.png";
 
 function Speakers() {
   const speakers = [
@@ -93,6 +94,13 @@ function Speakers() {
       role: "Speaker",
       link: "#",
       image: ntyagi,
+    },
+     {
+      name: "Prof. Rabibrata Mukherjee",
+      org: " IIT Kharagpur",
+      role: "Chief Guest",
+      link: "https://www.iitkgp.ac.in/department/CH/faculty/ch-rabibrata",
+      image: hmm,
     },
     {
       name: "Prof. Tushara Chaminda G.G",
@@ -198,11 +206,11 @@ function Speakers() {
 
           <div className="relative border-l-2 border-sky-400 ml-6">
             {[
-              ["11 Feb 2026", "Applications Open"],
-              ["28 Feb 2026", "Applications Close (11:59 PM IST)"],
-              ["03 Mar 2026", "Shortlist Announcement (Email)"],
-              ["10 Mar 2026", "Fee Payment Deadline"],
-              ["24–27 Mar 2026", "Workshop Dates"],
+              ["5 March 2026", "Applications Open"],
+              ["15 March 2026", "Applications Close (11:59 PM IST)"],
+              ["18 March 2026", "Shortlist Announcement (Email)"],
+              ["20 March 2026", "Fee Payment Deadline"],
+              ["27 March 2026", "Workshop Dates"],
             ].map(([date, text], i) => (
               <div key={i} className="mb-10 ml-8 relative">
                 <div className="absolute -left-11 top-1 w-8 h-8 bg-sky-600 text-white text-sm rounded-full flex items-center justify-center shadow">
