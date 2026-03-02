@@ -1,15 +1,16 @@
 import vitLogo from "../assets/images/vit.png";
 import uojLogo from "../assets/images/avit.png";
 import sparcLogo from "../assets/images/sparcc.png";
+import nt from "../assets/images/nt.png";
+import ssty from "../assets/images/ssty.png";
 
 function Footer() {
   return (
     <footer className="bg-[#1e2a3a] text-gray-200 py-16 px-6">
       <div className="max-w-5xl mx-auto text-center">
-
         {/* Heading */}
         <h3 className="text-2xl font-semibold mb-8 text-white">
-          Get in Touch
+          Get in Touch Event Coordinators
         </h3>
 
         {/* Contact Info */}
@@ -29,10 +30,7 @@ function Footer() {
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.09 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z" />
               </svg>
             </span>
-            <a
-              href="tel:9437838487"
-              className="hover:text-white transition"
-            >
+            <a href="tel:9437838487" className="hover:text-white transition">
               9437838487
             </a>
           </div>
@@ -60,6 +58,11 @@ function Footer() {
               soumyaranjan.mahapatro@vit.ac.in
             </a>
             <p>Dr. Soumya Ranjan Mahapatro</p>
+            <image
+              src={ssty}
+              alt="VIT Logo"
+              className="h-5 object-contain opacity-80"
+            />
           </div>
 
           <div className="flex justify-center items-center gap-3">
@@ -85,6 +88,11 @@ function Footer() {
               nithya.v@vit.ac.in
             </a>
             <p>Dr. Nithya Venkatesh</p>
+            <image
+              src={nt}
+              alt="VIT Logo"
+              className="h-5 object-contain opacity-80"
+            />
           </div>
         </div>
 
@@ -120,9 +128,9 @@ function Footer() {
 
         {/* Bottom Line */}
         <p className="text-xs text-gray-500 mt-10">
-          © 2026 Next-Generation Wastewater Modelling & Control Workshop. All rights reserved.
+          © 2026 Next-Generation Wastewater Modelling & Control Workshop. All
+          rights reserved.
         </p>
-
       </div>
     </footer>
   );

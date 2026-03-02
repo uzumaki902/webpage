@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Overview from "../components/Overview";
-import Program from "../components/Program";
+
 import Speakers from "../components/Speakers";
 import Apply from "../components/Apply";
 import Logistics from "../components/Logistics";
