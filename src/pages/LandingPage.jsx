@@ -14,7 +14,7 @@ function LandingPage() {
       <Navbar />
       <Hero />
       <Overview />
-      <Program />
+
       <Speakers />
       <Apply />
       <Logistics />
